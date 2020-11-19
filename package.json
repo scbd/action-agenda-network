@@ -1,0 +1,24 @@
+{
+  "name": "action-agenda-network",
+  "version": "0.0.1",
+  "description": "Documents for the Action Agenda Network components and partner collaboration ",
+  "main": "index.js",
+  "authors": {
+    "name": "Secretariat of the Convention on Biological Diversity &lt;it@cbd.int&gt;",
+    "email": "it@cbd.int"
+  },
+  "repository": "git@github.com:scbd/action-agenda-network.git/action-agenda-network",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "docs:deploy": "sh src/.vuepress/deploy.sh",
+    "clean-reinstall": "if test -f yarn.lock; then rm yarn.lock; fi && if test -d node_modules; then rm -rf node_modules; fi && yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@scbd/sso-vue-plugin-scbd": "^1.0.4",
+    "vue-i18n": "^8.22.2",
+    "vue-particles": "^1.0.9",
+    "vuepress": "^1.5.3"
+  }
+}
