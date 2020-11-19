@@ -9,6 +9,32 @@ module.exports = {
   description:'Documents for the Action Agenda Network components and partner collaboration',
   nav:nav.en,
   sidebar: {
+    '/components/v2/':[
+      {
+        title: 'Components V2',
+        collapsable: false
+      },
+      {
+        title: 'Data Visualizations',
+        collapsable: false,
+        children: ['/components/v2/data-visualizations/pie-chart/','/components/v2/data-visualizations/counter/','/components/v2/data-visualizations/map/','/components/v2/data-visualizations/targeted-commitments/','/components/v2/data-visualizations/related-commitments/']
+      },
+      {
+        title: 'Pages',
+        collapsable: false,
+        children: ['/components/v2/pages/view/','/components/v2/pages/search/','/components/v2/pages/tiled-list/','/components/v2/pages/form/']
+      },
+      {
+        title: 'Data',
+        collapsable: false,
+        children: ['/components/v2/data/schema/','/components/v2/data/scbd/','/components/v2/data/wcmc/']
+      },
+      {
+        title: 'Services',
+        collapsable: false,
+        children: ['/components/v2/services/api/']
+      },
+    ],
     '/guide/': [
       {
         title: 'Guide',

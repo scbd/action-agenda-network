@@ -4,6 +4,10 @@ const nav =  [
     link: '/guide/',
   },
   {
+    text: 'Partners',
+    link: '/partners/'
+  },
+  {
     text: 'Components',
     ariaLabel: 'Components',
     items: [
@@ -16,10 +20,6 @@ const nav =  [
                     ]
             }
           ]
-  },
-  {
-    text: 'Partners',
-    link: '/partners/'
   },
   {
     text: 'GitHub',

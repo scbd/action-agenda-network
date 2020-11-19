@@ -4,6 +4,10 @@ const nav =  [
     link: '/zh/guide/',
   },
   {
+    text: '伙伴',
+    link: '/zh/partners/'
+  },
+  {
     text: '组件',
     ariaLabel: '组件',
     items: [
@@ -17,10 +21,7 @@ const nav =  [
             }
           ]
   },
-  {
-    text: '伙伴',
-    link: '/zh/partners/'
-  },
+
   {
     text: 'GitHub',
     link: 'https://github.com/scbd/action-agenda-components'
